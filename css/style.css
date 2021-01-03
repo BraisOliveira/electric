@@ -1,3 +1,13 @@
+/*Custom properties root = html con + especificidade
+-- Aqui metemos as variables que usamos
+*/
+:root {
+    --branco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #757575;
+}
+
 /*
  html e body font-size fai que :
  1rem = 10px 
@@ -9,10 +19,12 @@ html {
 body {
     font-size: 16px;
 }
-
 .titulo {
     text-align: center;
     font-size: 3.8rem;
+    color: var(--primario);
+    /* font-family: 'Audiowide', cursive; */
+    font-family: 'Krub', sans-serif;
 }
 
 .titulo span {
