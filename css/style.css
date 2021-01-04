@@ -1,4 +1,7 @@
-/*Custom properties root = html con + especificidade
+/*Custom properties root = html con + especifici
+
+
+dade
 -- Aqui metemos as variables que usamos
 */
 :root {
@@ -29,4 +32,30 @@ body {
 
 .titulo span {
     font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0rem auto;
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+    
+}
+   
+.navegacion {
+    padding: 1rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.navegacion a {
+    text-decoration:none;
+    color: var(--branco);
+}
+.navegacion a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+    text-decoration:none;
 }
