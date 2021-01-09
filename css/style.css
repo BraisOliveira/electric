@@ -6,7 +6,7 @@ dade
 */
 :root {
     --branco: #ffffff;
-    --oscuro: #212121;
+    --escuro: #212121;
     --primario: #ffc107;
     --secundario: #757575;
 }
@@ -26,13 +26,31 @@ html {
 
 body {
     font-size: 16px;
-}
-.titulo {
-    text-align: center;
-    font-size: 3.8rem;
-    color: var(--primario);
-    /* font-family: 'Audiowide', cursive; */
     font-family: 'Krub', sans-serif;
+
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.titulo {
+    color: var(--escuro);
+    /* font-family: 'Audiowide', cursive; */
+    font-family: 'Audiowide', cursive;
+
 }
 
 .titulo span {
@@ -83,5 +101,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;
-    padding: 2rem;
+    position: relative;
+}
+
+.contenido-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-hero h2,
+.contenido-hero p {
+    color: var(--branco);
 }
