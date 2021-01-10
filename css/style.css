@@ -157,3 +157,12 @@ h1, h2, h3 {
 .contido-hero p {
     color: var(--branco);
 }
+
+/* == SERVIZOS == */
+
+@media (min-width: 768px) {
+    .servizos {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);  
+    }
+}
