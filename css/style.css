@@ -5,6 +5,7 @@
     --escuro: #212121;
     --primario: #ffc107;
     --secundario: #757575;
+    --gris: #dfe9f3;
 }
 
 *, *:before, *:after {
@@ -26,6 +27,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--gris) 0%, var(--branco) 100%);
 }
 
 .contenedor {
@@ -51,6 +53,15 @@ body {
     .boton {
         width: auto;
     }
+}
+
+.sombra {
+    -webkit-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.5); /* Chrome */
+    -moz-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.5); /* Firefox v4-v9 */
+    box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.5);
+    background-color: var(--branco);
+    margin-bottom: 2rem;
+    border-radius: 1rem;
 }
 
 /* == TIPOGRAFIA == */
@@ -128,6 +139,7 @@ h1, h2, h3 {
     background-size: cover;
     height: 45rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contido-hero {
