@@ -163,6 +163,33 @@ h1, h2, h3 {
 @media (min-width: 768px) {
     .servizos {
         display: grid;
-        grid-template-columns: repeat(3, 33.33%);  
+        grid-template-columns: repeat(3, 33.33%);
+        grid-column-gap: 1rem;
     }
+}
+
+.servizo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servizo h3 {
+    color: var(--escuro);
+    font-weight: normal;
+}
+
+.servizo p {
+    line-height: 2;
+    text-align: center;
+}
+
+.servizo .iconos {
+    background-color: var(--primario);
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
