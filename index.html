@@ -64,8 +64,7 @@
                     </svg>
                 </div>
                 <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus
-                    sagittis
-                    libero, eget finibus sem aliquet eget.</p>
+                    sagittis.</p>
             </section>
             <section class="servizo">
                 <h3>Web Apps</h3>
@@ -80,8 +79,7 @@
                     </svg>
                 </div>
                 <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus
-                    sagittis
-                    libero, eget finibus sem aliquet eget.</p>
+                    sagittis.</p>
             </section>
             <section class="servizo">
                 <h3>e-Comerce</h3>
@@ -97,37 +95,40 @@
                         <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
                     </svg>
                 </div>
-                <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus
-                    sagittis
-                    libero, eget finibus sem aliquet eget.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, tempora porro.</p>
             </section>
         </div> <!-- .servizos -->
     </main>
 
+
+    <!-- FORMULARIO -->
     <section>
         <h2 class="titulo">Contacto</h2>
         <form action="#" class="formulario" name="formulario" method="POST">
-            <fieldset>Enche os campos e fálanos!</fieldset>
-            <div>
-                <label for="">Nome e apelidos</label>
-                <input type="text" placeholder="Como te chamas?" />
-            </div>
-            <div>
-                <label for="">Tel&eacute;fono</label>
-                <input type="tel" placeholder="o teu n&uacute;mero de contacto" />
-            </div>
-            <div>
-                <label for="">Email</label>
-                <input type="email" placeholder="o teu email" />
-            </div>
-            <div>
-                <label for="">Mensaxe</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-
+            <fieldset>
+                <div class="contenedor-campos" align="center"> <!-- estilo inline para bug firefox == WARNING == -->
+                    <legend>Enche os campos, e f&aacute;lanos!</legend> 
+                    <div class="campo">
+                        <label for="">Nome e apelidos</label>
+                        <input type="text" placeholder="Como te chamas?" />
+                    </div>
+                    <div class="campo">
+                        <label for="">Tel&eacute;fono</label>
+                        <input type="tel" placeholder="o teu n&uacute;mero de contacto" />
+                    </div>
+                    <div class="campo">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="o teu email" />
+                    </div>
+                    <div class="campo">
+                        <label for="">Mensaxe</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div> <!-- contenedor para campos do formulario -->
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
         </form>
     </section>
 

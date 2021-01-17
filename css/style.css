@@ -31,7 +31,7 @@ body {
 }
 
 .contenedor {
-    max-width: 120rem;
+    max-width: 130rem;
     margin: 0rem auto;
 }
 
@@ -56,12 +56,13 @@ body {
 }
 
 .sombra {
-    -webkit-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.5); /* Chrome */
-    -moz-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.5); /* Firefox v4-v9 */
-    box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.5);
-    background-color: var(--branco);
-    margin-bottom: 2rem;
-    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
+    box-shadow: 0px 11px 15px -9px rgba(0,0,0,0.63);
 }
 
 /* == TIPOGRAFIA == */
@@ -190,6 +191,28 @@ h1, h2, h3 {
     width: 14rem;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+/* FOMULARIO CONTACTO */
+
+.formulario {
+    background-color: var(--gris);
+    width: min( 60rem, 100% ); /* funcion para usar o valor mais pequeno */
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.formulario fieldset {
+    border:none;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario); 
 }
