@@ -71,8 +71,16 @@ body {
 .boton:hover {
     cursor: pointer;
 }
-.alin-dereita {
+.alin {
+    display: flex;
+    justify-content: flex-end;
+}
 
+@media (max-width:780px){
+    .alin {
+        display: flex;
+        justify-content: center;            
+    }
 }
 
 /* == TIPOGRAFIA == */
