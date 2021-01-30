@@ -2,10 +2,11 @@
 /* == VAR == */
 :root {
     --branco: #ffffff;
-    --escuro: #212121;
-    --primario: #ffc107;
-    --secundario: #757575;
-    --gris: #dfe9f3;
+    --escuro: #0C171A;
+    --gris: #334347;
+    --primario: #84ACB8;
+    --secundario: #A8E0F0;
+    --alternativo: #162124;
 }
 
 *, *:before, *:after {
@@ -50,7 +51,7 @@ footer {
 
 .boton {
     background-color: var(--secundario);
-    color: var(--branco);
+    color: var(--alternativo);
     padding: 1rem 3rem;
     margin-top: 1rem;
     font-size: 2rem;
@@ -130,7 +131,7 @@ h1, h2, h3 {
 /* == NAVEGACION PRINCIPAL == */
 
 .nav-bg {
-    background-color: var(--secundario); 
+    background-color: var(--primario); 
 }
    
 .navegacion {
