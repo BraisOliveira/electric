@@ -161,7 +161,7 @@ h1, h2, h3 {
 
 .navegacion a:hover {
     background-color: var(--primario);
-    color: var(--oscuro);
+    color: var(--escuro);
 }
 
 /* == HERO == */
